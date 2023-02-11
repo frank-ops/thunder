@@ -136,7 +136,7 @@ const CreateImage = () => {
             </div>
             <div className='mt-10'>
                 <p className='mt-2  text-[#666e75] text-[14px]'>you can share the created image in the community</p>
-                <button type="submit" className='mt-3 text-center hover:bg-sky-700  text-white font-medium rounded-md text-sm bg-sky-600 w-full xs:w-auto px-10 py-2.5'>
+                <button type="submit" className='mt-3 mb-5 text-center hover:bg-sky-700  text-white font-medium rounded-md text-sm bg-sky-600 w-full xs:w-auto px-10 py-2.5'>
                   {loading?'sharing':'share'}
                 </button>
             </div>
