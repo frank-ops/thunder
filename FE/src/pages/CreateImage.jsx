@@ -14,7 +14,7 @@ const CreateImage = () => {
          if(form.prompt){
             try{
                 setGenImg(true);
-                const res=await fetch("http://localhost:8080/api/v1/thunder",{
+                const res=await fetch("https://thunderai.onrender.com/api/v1/thunder",{
                     method: 'POST',
                     headers: {
                       'Content-Type': 'application/json',
@@ -43,7 +43,7 @@ const CreateImage = () => {
         if(form.prompt && form.photo){
             SetLoading(true)
             try{
-                 const res= await fetch("http://localhost:8080/api/v1/post",{
+                 const res= await fetch("https://thunderai.onrender.com/api/v1/post",{
                     method:'POST',
                     headers:{
                         'Content-Type':'application/json',
