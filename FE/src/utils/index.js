@@ -27,5 +27,5 @@ const blobURL = URL.createObjectURL(blob);
 export async function downloadImg(_id,photo){
     const blob = await fetch(photo).then((response) => response.blob());
     console.log(blob)
- saveFile(blob,"download")
+    saveFile(blob,"download")
 }
