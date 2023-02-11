@@ -14,7 +14,7 @@ const Card = ({_id,name,prompt,photo}) => {
                   <div className='w-7 h-7 rounded-full object-cover bg-green-700 flex justify-center items-center text-white text-xs font-bold"'>{name[0]}</div>    
                   <p className='text-white text-sm font-bold'>{name}</p>
               </div>
-              <button type="button" onClick={()=>downloadImg(_id,photo)} 
+              <button type="button" onClick={()=>{alert(photo) downloadImg(_id,photo)}} 
                  className="outline-none bg-transparent border-none">
                 <img src={download} alt="download" className='w-6 h-6 object-contain invert'/>
               </button>
