@@ -141,6 +141,12 @@ const CreateImage = () => {
                 </button>
             </div>
         </form>
+        <div
+         className='flex flex-col mt-20 mb-3 justify-center items-center'
+        >
+        <p className='font-medium text-md text-sky-900 pb-2'>made with 🔥 by Franklin</p>
+        <p className='font-medium text-xs text-red-400'>copyright ©2023 @frank-ops</p>
+        </div>
     </section>
   )
 }

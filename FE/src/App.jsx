@@ -14,12 +14,13 @@ const App = () => {
              Generate
        </Link>
     </header>
-    <main className='sm:p-8 px-4 py- w-full bg-[#f9fafe] min-h-[calc(100vh-73px)]'>
+    <main className='sm: px-8 pt-8 pb-0 w-full bg-[#f9fafe] min-h-[calc(100vh-73px)]'>
      <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/create-img' element={<CreateImage/>}/>
      </Routes>
     </main>
+    
    </BrowserRouter>
   )
 }
